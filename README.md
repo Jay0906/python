@@ -1,4 +1,4 @@
-def forEvenNumber(n):
+def forEvenNumber(n):#python
     arr = [[(n * y) + x + 1 for x in range(n)] for y in range(n)]
     for i in range(0, n // 4):
         for j in range(3 * (n // 4), n):
